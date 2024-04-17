@@ -5,5 +5,13 @@
 using namespace std;
 
 /* Type your code here */
+public:
+void SetPrice();
+void GetPrice();
+
+private:
+string itemName = "none";
+int itemPrice = 0;
+int itemQuantity = 0;
 
 #endif
