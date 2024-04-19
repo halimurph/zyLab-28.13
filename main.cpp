@@ -47,6 +47,5 @@ int main() {
    item2.PrintInfo();
    cout << "Total: $" << totalCost << endl;
    
-   ItemToPurchase.PrintInfo();
    return 0;
 }
