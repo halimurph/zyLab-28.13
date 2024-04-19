@@ -7,27 +7,27 @@ using namespace std;
 ItemToPurchase::ItemToPurchase(){}
 
 void ItemToPurchase::SetName(string name){
-  string name = itemName;
+  name = itemName;
 }
 
 string ItemToPurchase::GetName(){
-  return name;
+  return itemName;
 }
 
 void ItemToPurchase::SetPrice(int price){
-  int price = itemPrice;
+  price = itemPrice;
 }
 
 int ItemToPurchase::GetPrice(){
-  return price;
+  return itemPrice;
 }
 
 void ItemToPurchase::SetQuantity(int quantity){
-  int quantity = itemQuantity;
+  quantity = itemQuantity;
 }
 
 int ItemToPurchase::GetQuantity(){
-  return quantity;
+  return itemQuantity;
 }
 
 void ItemToPurchase::PrintInfo(){
