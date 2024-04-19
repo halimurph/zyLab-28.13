@@ -10,6 +10,6 @@ void ItemToPurchase::SetName(){
   string itemName = name;
 }
 
-void ItemToPurchase::GetName(){
-  cout << name << endl;
+string ItemToPurchase::GetName(){
+  return name;
 }
