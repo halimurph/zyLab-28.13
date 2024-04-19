@@ -5,6 +5,7 @@
 using namespace std;
 
 /* Type your code here */
+class ItemToPurchase {
 public:
 ItemToPurchase();
 void SetPrice();
@@ -14,5 +15,6 @@ private:
 string itemName = "none";
 int itemPrice = 0;
 int itemQuantity = 0;
+};
 
 #endif
