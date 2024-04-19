@@ -7,9 +7,17 @@ using namespace std;
 ItemToPurchase::ItemToPurchase(){}
 
 void ItemToPurchase::SetName(string itemName){
-  string itemName = name;
+  string name = itemName;
 }
 
 string ItemToPurchase::GetName(){
   return name;
+}
+
+void ItemToPurchase::SetPrice(int itemPrice){
+  int price = itemPrice;
+}
+
+int ItemToPurchase::GetPrice(){
+  return price;
 }
