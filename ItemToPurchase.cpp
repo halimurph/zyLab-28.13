@@ -6,7 +6,7 @@ using namespace std;
 /* Type your code here */
 ItemToPurchase::ItemToPurchase(){}
 
-void ItemToPurchase::SetName(string itemName){
+void ItemToPurchase::SetName(string name){
   string name = itemName;
 }
 
@@ -14,7 +14,7 @@ string ItemToPurchase::GetName(){
   return name;
 }
 
-void ItemToPurchase::SetPrice(int itemPrice){
+void ItemToPurchase::SetPrice(int price){
   int price = itemPrice;
 }
 
@@ -22,7 +22,7 @@ int ItemToPurchase::GetPrice(){
   return price;
 }
 
-void ItemToPurchase::SetQuantity(int itemQuantity){
+void ItemToPurchase::SetQuantity(int quantity){
   int quantity = itemQuantity;
 }
 
