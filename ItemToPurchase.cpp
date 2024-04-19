@@ -6,7 +6,7 @@ using namespace std;
 /* Type your code here */
 ItemToPurchase::ItemToPurchase(){}
 
-void ItemToPurchase::SetName(){
+void ItemToPurchase::SetName(string itemName){
   string itemName = name;
 }
 
