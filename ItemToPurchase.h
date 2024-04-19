@@ -8,8 +8,8 @@ using namespace std;
 class ItemToPurchase {
 public:
 ItemToPurchase();
-void SetPrice();
-void GetPrice();
+void SetPrice(string name);
+int GetPrice();
 
 private:
 string itemName = "none";
