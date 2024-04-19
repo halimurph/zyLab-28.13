@@ -29,3 +29,7 @@ void ItemToPurchase::SetQuantity(int quantity){
 int ItemToPurchase::GetQuantity(){
   return quantity;
 }
+
+void ItemToPurchase::PrintInfo(){
+
+}
