@@ -16,6 +16,8 @@ string GetName();
 void SetQuantity(int quantity);
 int GetQuantity();
 
+void PrintInfo();
+
 private:
 string itemName = "none";
 int itemPrice = 0;
