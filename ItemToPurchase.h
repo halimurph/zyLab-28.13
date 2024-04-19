@@ -9,11 +9,11 @@ class ItemToPurchase {
 public:
 ItemToPurchase();
 
-void SetPrice(int itemPrice);
+void SetPrice(int price);
 int GetPrice();
-void SetName(string itemName);
+void SetName(string name);
 string GetName();
-void SetQuantity(int itemQuantity);
+void SetQuantity(int quantity);
 int GetQuantity();
 
 private:
