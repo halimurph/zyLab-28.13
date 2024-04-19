@@ -21,3 +21,11 @@ void ItemToPurchase::SetPrice(int itemPrice){
 int ItemToPurchase::GetPrice(){
   return price;
 }
+
+void ItemToPurchase::SetQuantity(int itemQuantity){
+  int quantity = itemQuantity;
+}
+
+int ItemToPurchase::GetQuantity(){
+  return quantity;
+}
