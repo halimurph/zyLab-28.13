@@ -8,7 +8,7 @@ using namespace std;
 class ItemToPurchase {
 public:
 ItemToPurchase();
-void SetPrice(string name);
+void SetPrice(int itemPrice);
 int GetPrice();
 
 private:
