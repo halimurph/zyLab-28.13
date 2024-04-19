@@ -6,6 +6,7 @@ using namespace std;
 
 /* Type your code here */
 public:
+ItemToPurchase();
 void SetPrice();
 void GetPrice();
 
